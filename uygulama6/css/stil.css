@@ -1,0 +1,61 @@
+#ekle input{
+    height: 40px;
+    margin-top: 15px;
+    border: 0px;
+    box-shadow: 0px 2px 2px 0px rgba(0,0,0,0.14) , 0px 3px 1px -2px rgba(0,0,0,0.12) , 0px 1px 5px 0px rgba(0,0,0,0.2);
+}
+#ekle p{
+
+    font-size: 40px;
+    width: 15%;
+    height: 40px;
+    margin-top: 15px;
+    display: flex;
+justify-content: center;
+align-items:center;
+padding-bottom: 5px;
+    box-shadow: 0px 2px 2px 0px rgba(0,0,0,0.14) , 0px 3px 1px -2px rgba(0,0,0,0.12) , 0px 1px 5px 0px rgba(0,0,0,0.2);
+}
+#ekle input:hover, #ekle p:hover{
+    box-shadow: 0px 2px 5px 0px rgba(0,0,0,0.14) , 0px 1px 10px 0px rgba(0,0,0,0.12) , 0px 2px 4px -1px rgba(0,0,0,0.2);
+}
+.yapBaslik{
+    border:0px solid;
+    text-align: center;
+    background: #FF9551;
+    color: #2C3333;
+    box-shadow: 0px 2px 5px 0px rgba(0,0,0,0.14) , 0px 1px 10px 0px rgba(0,0,0,0.12) , 0px 2px 4px -1px rgba(0,0,0,0.2);
+}
+.yapBaslik2{
+    border:0px solid;
+    text-align: center;
+    background: #5FD068;
+    color: #2C3333;
+    box-shadow: 0px 2px 5px 0px rgba(0,0,0,0.14) , 0px 1px 10px 0px rgba(0,0,0,0.12) , 0px 2px 4px -1px rgba(0,0,0,0.2) ;
+}
+.check{
+    display: flex;
+    justify-content:space-between;
+
+    background-color: white;
+    color: #2C3333;
+    padding: 5px 10px;
+    box-shadow: 0px 2px 5px 0px rgba(0,0,0,0.14) , 0px 1px 10px 0px rgba(0,0,0,0.12) , 0px 2px 4px -1px rgba(0,0,0,0.2) ;
+}
+.duzenle{
+    
+    background-color: #47B5FF;
+    color: #2C3333;
+    padding: 5px 10px;
+}
+.sil{
+    background-color: #FF4A4A;
+    color: #2C3333;
+    padding: 5px 10px;
+}
+.duzenle:hover, .sil:hover{
+    box-shadow: 0px 2px 5px 0px rgba(0,0,0,0.14) , 0px 1px 10px 0px rgba(0,0,0,0.12) , 0px 2px 4px -1px rgba(0,0,0,0.2) ;
+}
+.red {
+    background-color: orangered;
+}
